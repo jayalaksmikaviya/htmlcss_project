@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .form
+        {
+            color: black;
+            font-size: 130%;
+        }
+    </style>
+    <meta charset="UTF-8" />
+    <title>student application form</title>
+</head>
+<body background="./water img.jpg">
+   <h1 style="font-style: initial;font-size: 300%;text-align: center;"><b>Application form</b> </h1>
+   <div class="form">
+   <form action="/action_page.php" autocomplete="on">
+      <fieldset>
+         <legend style="text-align: center;font-size: 120%;"><b>Student Personal information</b> </legend>
+     <label for="fname"><b>Student's name :</b></label>
+     <input type="text" id="fname"name="fname"
+     <br><br><br><br><br>
+     <label for="birthday"><b>Date of birth :</b></label>
+  <input type="date" id="birthday" name="birthday">
+  <br><br><br><br>
+     <label>   
+        <b>Gender : </b> 
+        </label>  
+        <input type="radio" name="male"/> Male 
+        <input type="radio" name="female"/> Female 
+        <input type="radio" name="other"/> Other  
+        <br>  
+        <br>  
+     <br>
+     <label for="fname"><b>Student's class :</b> </label>
+     <input type="text" id="fname"name="fname"
+     <label for="email"><b>Enter your email:</b></label>
+     <input type="email" id="email" name="email">
+     <br><br><br><br>
+     <label for="fname"><b>Student's father name : </b></label>
+     <input type="text" id="fname"name="fname"
+     <br><br><br><br>
+     <label for="fname"><b>Student's father occupation : </b></label>
+         <input list="occupation" name="occupation">
+  <datalist id="occupation">
+    <option value="Goverment">
+    <option value="Private">
+    <option value="Buisness">
+    <option value="Farmer">
+    <option value="other">
+  </datalist>
+  <br><br><br>
+    <label for="fname"><b>Student's father mobile number : </b></label>
+     <input type="text" id="fname"name="fname"
+     <br><br><br><br>
+     <label for="fname"><b>Student's mother name : </b></label>
+     <input type="text" id="fname"name="fname"
+     <br><br><br><br>
+     <label for="fname"><b>Student's mother occupation :</b> </label>
+     <input list="occupation" name="occupation">
+     <datalist id="occupation">
+       <option value="Goverment">
+       <option value="Private">
+       <option value="Buisness">
+       <option value="housewife">
+       <option value="other">
+     </datalist>
+     <br><br><br>
+     <label for="fname"><b>Student's perment address : </b></label>
+     <textarea name="message" rows="5" cols="20"></textarea>
+     <br><br><br><br>
+     <label for="fname"><b>Student's identification marks : </b></label>
+     <input type="text" id="fname"name="fname"
+     <br><br><br>
+     <p> <b>select the course : </b> </p>
+  <input type="radio" id="Biology"  >
+  <label for="Biology">Biology</label><br>
+  <input type="radio" id="CSE" >
+  <label for="cse">CSE</label><br>
+  <input type="radio" id="Economic" >
+  <label for="Economic">Economic</label><br>
+  <input type="radio" id="Pure science" >
+  <label for="Pure science">Pure science</label><br><br>
+     <button type="button" onclick="alert('Check the application once again correctly before submitting' )">Submit</button>
+     <button type="button" onclick="alert('Please check before reset.Once the form is reset the datas will be disable' )">Reset</button>
+     </fieldset>
+   </form>
+</div> 
+</body>
+</html>
